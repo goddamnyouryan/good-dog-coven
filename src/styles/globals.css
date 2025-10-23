@@ -57,3 +57,12 @@ nav ul li {
   font-size: 28px;
   margin-left: 50px;
 }
+
+footer {
+  padding: 25px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}

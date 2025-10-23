@@ -10,3 +10,34 @@
   font-weight: 400;
   font-size: 44px;
 }
+
+.services {
+  background: #d1be9d;
+  padding: 100px 0;
+}
+
+.servicesList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.cta {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.subhead {
+  font-size: 36px;
+}
+
+.button {
+  background: #d1be9d;
+  color: #687142;
+  font-size: 32px;
+  padding: 25px 100px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
