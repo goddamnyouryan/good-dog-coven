@@ -5,9 +5,13 @@
 }
 
 @media (max-width: 500px) {
-  .hero{
-    width: 90%;
-    margin: 0 auto;
+  .hero {
+    width: 95%;
+    margin: 25px auto;
+  }
+
+  .heroImage {
+    width: 100%;
   }
 }
 
