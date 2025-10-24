@@ -4,11 +4,18 @@
   margin: 0 auto;
 }
 
+@media (max-width: 500px) {
+  .heroImage {
+    width: 95%;
+  }
+}
+
 .tagline {
   text-align: center;
   margin: 50px 0;
   font-weight: 400;
   font-size: 44px;
+  line-height: 1;
 }
 
 .services {
@@ -19,7 +26,18 @@
 .servicesList {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 860px) {
+  .servicesList li {
+    margin-bottom: 25px;
+  }
+
+  .servicesList li:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .cta {
@@ -29,6 +47,8 @@
 
 .subhead {
   font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .button {
@@ -41,3 +61,17 @@
   margin-top: 50px;
 }
 
+@media (max-width: 500px) {
+  .cta {
+    padding: 50px 25px;
+  }
+
+  .subhead {
+    font-size: 32px;
+  }
+
+  .button {
+    font-size: 24px;
+    padding: 25px 50px;
+  }
+}
