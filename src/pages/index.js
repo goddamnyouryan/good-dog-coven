@@ -30,7 +30,7 @@ export default function Home() {
       </header>
 
       <main>
-        <div className='container'>
+        <div className='container hero'>
           <img src='/hero.png' className={styles.heroImage} />
           <h2 className={styles.tagline}>A mystical retreat for your goodest dog</h2>
         </div>
