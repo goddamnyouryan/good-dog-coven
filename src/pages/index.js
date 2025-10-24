@@ -35,6 +35,7 @@ export default function Home() {
           <h2 className={styles.tagline}>A mystical retreat for your goodest dog</h2>
         </div>
 
+        <a name='services'></a>
         <div className={styles.services}>
           <div className='container'>
             <ul className={styles.servicesList}>
